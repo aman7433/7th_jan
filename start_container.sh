@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+version=$(date)
 
 # Pull the Docker image from Docker Hub
 docker pull abhishekf5/python-sample-app-demo
